@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210521 17:29:09.661" rpa="false">
+<suite id="s1" name="Condicionais" source="C:\QANinja\RobotExpert\start\Condicionais.robot">
+<test id="s1-t1" name="Navegador">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>Firefox</arg>
+</arguments>
+<assign>
+<var>${browser}</var>
+</assign>
+<msg timestamp="20210521 17:29:09.685" level="INFO">${browser} = Firefox</msg>
+<status status="PASS" starttime="20210521 17:29:09.683" endtime="20210521 17:29:09.685"></status>
+</kw>
+<kw name="If" library="Reserved">
+<arguments>
+<arg>'${browser}' ==</arg>
+<arg>'Firefox'</arg>
+</arguments>
+<msg timestamp="20210521 17:29:09.685" level="FAIL">'If' is a reserved keyword.</msg>
+<status status="FAIL" starttime="20210521 17:29:09.685" endtime="20210521 17:29:09.685"></status>
+</kw>
+<tags>
+<tag>browser</tag>
+</tags>
+<status status="FAIL" starttime="20210521 17:29:09.683" endtime="20210521 17:29:09.685" critical="yes">'If' is a reserved keyword.</status>
+</test>
+<doc>Trabalhando com Condicionais</doc>
+<status status="FAIL" starttime="20210521 17:29:09.663" endtime="20210521 17:29:09.687"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">browser</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Condicionais">Condicionais</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
