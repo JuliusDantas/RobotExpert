@@ -2,13 +2,13 @@
 Estudo Robot
 
 # Comandos
-## Executar quando existe tags
+### Executar quando existe tags
 robot -d ./Logs/conta -i browser Condicionais.robot
 
-## Comando padrão
+### Comando padrão
 robot -d ./Logs/conta Condicionais.robot
 
-## Comando usando Tags
+### Comando usando Tags
 robot -d ./Logs/loops -i thor ./start/loops.robot
 
 # Heroku (PAAS)
